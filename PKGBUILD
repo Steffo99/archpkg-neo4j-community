@@ -2,7 +2,7 @@
 # Contributor: Marcel Campello Ferreira <marcel.campello.ferreira@gmail.com>
 # Contributor: Mark Dixon <mark@markdixon.name>
 pkgname=neo4j-community
-pkgver=4.4.5
+pkgver=5.5.0
 pkgrel=1
 pkgdesc='A fully transactional graph database implemented in Java'
 arch=(any)
