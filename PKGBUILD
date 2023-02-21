@@ -86,7 +86,6 @@ package() {
 
   install -D -m 644 $srcdir/neo4j.sysuser $pkgdir/usr/lib/sysusers.d/neo4j.conf
   install -D -m 775 $NEO4JSRC/bin/cypher-shell $NEO4JSRC/bin/neo4j $NEO4JSRC/bin/neo4j-admin -t $pkgdir/$USR_BIN_DIR
-  install -D -m 775 $NEO4JSRC/bin/tools/cypher-shell.jar -t $pkgdir/$USR_BIN_DIR
   for file in $(find $pkgdir/$USR_BIN_DIR -maxdepth 1 -type f); do
     b_file=$(basename $file)
     ln -s /$USR_BIN_DIR/$b_file $pkgdir/$BIN_DIR/$b_file;
