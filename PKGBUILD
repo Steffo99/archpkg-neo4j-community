@@ -1,6 +1,7 @@
 # Maintainer: Amina Khakimova <hakami1024@gmail.com>
 # Contributor: Marcel Campello Ferreira <marcel.campello.ferreira@gmail.com>
 # Contributor: Mark Dixon <mark@markdixon.name>
+# Contributor: Stefano Pigozzi <me@steffo.eu>
 pkgname=neo4j-community
 pkgver=5.5.0
 pkgrel=1
