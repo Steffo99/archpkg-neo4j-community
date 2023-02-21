@@ -16,14 +16,14 @@ options=(!strip)
 install=neo4j.install
 source=(http://dist.neo4j.org/neo4j-community-$pkgver-unix.tar.gz
         neo4j.conf
-	neo4j.install
+	      neo4j.install
         neo4j.sysuser
         neo4j.service)
 sha256sums=('26a3fa9f3c567a9edd337e2a33c82cc25e9ee65ca83e69ba52af628b96abb745'
             'a15570b179dce85e695ae4f98bf6784a93f8eb120a2690ffcc43b5c83e7c7417'
-	    'e95540f908ebc41f88bf1c61befb5df9434a804f5c89abced65286302cf2dafa'
+	          'e95540f908ebc41f88bf1c61befb5df9434a804f5c89abced65286302cf2dafa'
             '67a4ea5dc27c805bfcd3efb02f851856425e1d1beac80741a45b8233daf2f500'
-	    'e39f383a26a0e50dff9760af8f9cf6b63213de10c0f898ddfb3661aa1fed828b')
+	          'e39f383a26a0e50dff9760af8f9cf6b63213de10c0f898ddfb3661aa1fed828b')
 package() {
   ############################
   # Directories as in Debian/RPM (excluding conf., which was not working): https://neo4j.com/docs/operations-manual/current/configuration/file-locations/
