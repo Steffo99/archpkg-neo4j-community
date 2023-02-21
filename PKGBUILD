@@ -19,7 +19,7 @@ source=(http://dist.neo4j.org/neo4j-community-$pkgver-unix.tar.gz
 	      neo4j.install
         neo4j.sysuser
         neo4j.service)
-sha256sums=('26a3fa9f3c567a9edd337e2a33c82cc25e9ee65ca83e69ba52af628b96abb745'
+sha256sums=('3834cf8393f11d02e96e37b15ceeb4319f56cf1d323076ca242a35750c94bd99'
             'a15570b179dce85e695ae4f98bf6784a93f8eb120a2690ffcc43b5c83e7c7417'
 	          'e95540f908ebc41f88bf1c61befb5df9434a804f5c89abced65286302cf2dafa'
             '67a4ea5dc27c805bfcd3efb02f851856425e1d1beac80741a45b8233daf2f500'
